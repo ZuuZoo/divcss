@@ -10,4 +10,5 @@
 }
 body {
     background-color: rgb(200, 0, 0);
+    background-image: url(screenshot.jpg);
 }
