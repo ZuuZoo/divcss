@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,19 +10,25 @@
 </head>
 <body>
     <!--      table.sakktable>(tr.sakktr>td.sakktd*8)*8        -->
+    <!--      table.sakktable>(tr>th*4)(tr.sakktr>td.sakktd*4)*4(tr>th*4)      -->
+    <!--      table.sakktable>(tr>th.sakkth*10)(tr.sakktr>th*1td.sakktd*8th*1)*8(tr>th.sakkth*10)*1      -->
+    <!--      table.sakktable>(tr>th*10)(tr.sakktr>th*1td.sakktd*8th*1)*8(tr>th*10)                      -->
     <div align="center">
         <table class="sakktable">
-            <tr class="sakktr">
-                <td class="sakktd"></td>
-                <td class="sakktd"></td>
-                <td class="sakktd"></td>
-                <td class="sakktd"></td>
-                <td class="sakktd"></td>
-                <td class="sakktd"></td>
-                <td class="sakktd"></td>
-                <td class="sakktd"></td>
+            <tr>
+                <th></th>
+                <th>a</th>
+                <th>b</th>
+                <th>c</th>
+                <th>d</th>
+                <th>e</th>
+                <th>f</th>
+                <th>g</th>
+                <th>h</th>
+                <th></th>
             </tr>
             <tr class="sakktr">
+                <th>1</th>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
@@ -31,8 +37,10 @@
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
+                <th>1</th>
             </tr>
             <tr class="sakktr">
+                <th>2</th>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
@@ -41,8 +49,10 @@
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
+                <th>2</th>
             </tr>
             <tr class="sakktr">
+                <th>3</th>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
@@ -51,8 +61,10 @@
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
+                <th>3</th>
             </tr>
             <tr class="sakktr">
+                <th>4</th>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
@@ -61,8 +73,10 @@
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
+                <th>4</th>
             </tr>
             <tr class="sakktr">
+                <th>5</th>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
@@ -71,8 +85,10 @@
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
+                <th>5</th>
             </tr>
             <tr class="sakktr">
+                <th>6</th>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
@@ -81,8 +97,10 @@
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
+                <th>6</th>
             </tr>
             <tr class="sakktr">
+                <th>7</th>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
@@ -91,9 +109,36 @@
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
                 <td class="sakktd"></td>
+                <th>7</th>
+            </tr>
+            <tr class="sakktr">
+                <th>8</th>
+                <td class="sakktd"></td>
+                <td class="sakktd"></td>
+                <td class="sakktd"></td>
+                <td class="sakktd"></td>
+                <td class="sakktd"></td>
+                <td class="sakktd"></td>
+                <td class="sakktd"></td>
+                <td class="sakktd"></td>
+                <th>8</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th class="fejteto">a</th>
+                <th>b</th>
+                <th>c</th>
+                <th>d</th>
+                <th>e</th>
+                <th>f</th>
+                <th>g</th>
+                <th>h</th>
+                <th></th>
             </tr>
         </table>
     </div>
-    <a href="index.html">Index</a>
+    <div align="center">
+        <a href="index.html">Index</a>
+    </div>
 </body>
 </html>

@@ -1,7 +1,7 @@
 .sakktable{
     border: 2px outset;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
 }
 
 .sakktd{
@@ -11,9 +11,23 @@
 .sakktr:nth-child(odd) .sakktd:nth-child(even),
 .sakktr:nth-child(even) .sakktd:nth-child(odd) {
     background-color: #222222;
+    width: 40px;
+    height: 40px;
 }
 
 .sakktr:nth-child(odd) .sakktd:nth-child(odd),
 .sakktr:nth-child(even) .sakktd:nth-child(even) {
     background-color: #eeeeee;
+    width: 40px;
+    height: 40px;
+}
+
+th{
+    border: 1px;
+    width: 40px;
+    height: 40px;
+}
+
+.fejteto{
+    rotate: 180deg;
 }
