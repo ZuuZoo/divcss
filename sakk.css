@@ -1,4 +1,10 @@
+body {
+    background-color: #9e9e9e;
+    /* background-image: url(screenshot.jpg); */
+}
+
 .sakktable{
+    background-color: rgb(255, 255, 255);
     border: 2px outset;
     width: 450px;
     height: 450px;

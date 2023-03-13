@@ -9,6 +9,6 @@
     margin: 10px;
 }
 body {
-    background-color: rgb(200, 0, 0);
-    background-image: url(screenshot.jpg);
+    background-color: #777777;
+    /* background-image: url(screenshot.jpg); */
 }
