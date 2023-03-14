@@ -50,6 +50,10 @@ window.addEventListener('DOMContentLoaded', () => {
     if (roundWon) {
             announce(currentPlayer === 'X' ? PLAYERX_WON : PLAYERO_WON);
             isGameActive = false;
+            var display = document.getElementsByClassName("display");
+                function hideElement(){
+                    display[0].classList.add('hide');
+                }
             return;
         }
 
@@ -60,13 +64,13 @@ window.addEventListener('DOMContentLoaded', () => {
     const announce = (type) => {
         switch(type){
             case PLAYERO_WON:
-                announcer.innerHTML = 'Player <span class="playerO">O</span> Won';
+                announcer.innerHTML = 'Az <span class="playerO">O</span> nyert';
                 break;
             case PLAYERX_WON:
-                announcer.innerHTML = 'Player <span class="playerX">X</span> Won';
+                announcer.innerHTML = 'Az <span class="playerX">X</span> nyert';
                 break;
             case TIE:
-                announcer.innerText = 'Tie';
+                announcer.innerText = 'Döntetlen';
         }
         announcer.classList.remove('hide');
     };
