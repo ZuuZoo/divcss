@@ -27,7 +27,7 @@
             "Tipped: <input id='tipp'> <button onclick='tipp()'>Tipp</button>"
         }
         function tipp() {
-            probalkozasok++
+            probalkozasok++;
             jatekostipp = document.getElementById("tipp").value
             if (jatekostipp < gondolt) {
                 document.getElementById("szoveg").innerHTML =
@@ -42,8 +42,7 @@
                 "Talált! A szám: " + gondolt
 
             }
-            document.getElementById("szoveg").innerHTML =
-                "Próbálkozások" + probalkozasok
+            probaSzam.innerHTML = "Próbálkozások: " + probalkozasok;
 
         }
     </script>
@@ -56,10 +55,7 @@
         Kérem a neved: <input id="nevMezo"> <button onclick="nev()">Bevitel</button>
     </div>
     <div id="szoveg" align="center">
-
-    </div>
-    <div id="probak" align="center">
-        
+        <p></p>
     </div>
     <a href="index.html" align="center">Index</a>
 </body>
