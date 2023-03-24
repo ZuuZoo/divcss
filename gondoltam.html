@@ -39,10 +39,11 @@
             }
             if (jatekostipp == gondolt) {
                 document.getElementById("szoveg").innerHTML =
-                "Talált! A szám: " + gondolt + "Próbálkozások: " + probalkozasok
+                "Talált! A szám: " + gondolt
 
             }
-            proba++
+            document.getElementById("szoveg").innerHTML =
+                "Próbálkozások" + probalkozasok
 
         }
     </script>
@@ -56,6 +57,9 @@
     </div>
     <div id="szoveg" align="center">
 
+    </div>
+    <div id="probak" align="center">
+        
     </div>
 </body>
 
