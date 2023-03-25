@@ -27,6 +27,7 @@
             "Tipped: <input id='tipp'> <button onclick='tipp()'>Tipp</button>"
         }
         function tipp() {
+            proba++
             jatekostipp = document.getElementById("tipp").value
             if (jatekostipp < gondolt) {
                 document.getElementById("szoveg").innerHTML =
@@ -38,7 +39,7 @@
             }
             if (jatekostipp == gondolt) {
                 document.getElementById("szoveg").innerHTML =
-                "Talált! A szám: " + gondolt
+                "Talált! A szám: " + gondolt + "Próbáid: " + proba
 
             }
 
